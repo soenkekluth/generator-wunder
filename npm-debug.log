@@ -1,0 +1,231 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.24/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/soenke/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/tmp.tgz
+12 verbose folder .
+13 info prepublish generator-wunder@0.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/soenke/.npm/1f1177db-tar.lock
+16 silly lockFile 5a4a4e1e-827003-0-263239910826087-tmp-tgz tar:///var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/tmp.tgz
+17 verbose lock tar:///var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/tmp.tgz /Users/soenke/.npm/5a4a4e1e-827003-0-263239910826087-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 5a4a4e1e-827003-0-263239910826087-tmp-tgz tar:///var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/tmp.tgz
+21 silly lockFile 5a4a4e1e-827003-0-263239910826087-tmp-tgz tar:///var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/tmp.tgz
+22 verbose tar unpack /var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/tmp.tgz
+23 silly lockFile d6240753-827003-0-263239910826087-package tar:///var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/package
+24 verbose lock tar:///var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/package /Users/soenke/.npm/d6240753-827003-0-263239910826087-package.lock
+25 silly lockFile 5a4a4e1e-827003-0-263239910826087-tmp-tgz tar:///var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/tmp.tgz
+26 verbose lock tar:///var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/tmp.tgz /Users/soenke/.npm/5a4a4e1e-827003-0-263239910826087-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry LICENSE
+32 silly gunzTarPerm extractEntry .travis.yml
+33 silly gunzTarPerm extractEntry .gitattributes
+34 silly gunzTarPerm extractEntry .editorconfig
+35 silly gunzTarPerm extractEntry app/index.js
+36 silly gunzTarPerm extractEntry app/templates/README.md
+37 silly gunzTarPerm extractEntry app/templates/Gruntfile.js
+38 silly gunzTarPerm extractEntry app/templates/_bower.json
+39 silly gunzTarPerm extractEntry app/templates/_package.json
+40 silly gunzTarPerm extractEntry app/templates/app/.htaccess
+41 silly gunzTarPerm extractEntry app/templates/app/404.html
+42 silly gunzTarPerm extractEntry app/templates/app/assets/js/main.js
+43 silly gunzTarPerm extractEntry app/templates/app/assets/scss/.scss-lint.yml
+44 silly gunzTarPerm extractEntry app/templates/app/assets/scss/main.scss
+45 silly gunzTarPerm extractEntry app/templates/app/favicon.ico
+46 silly gunzTarPerm extractEntry app/templates/app/robots.txt
+47 silly gunzTarPerm extractEntry app/templates/bowerrc
+48 silly gunzTarPerm extractEntry app/templates/jshintrc
+49 silly gunzTarPerm extractEntry app/templates/editorconfig
+50 silly gunzTarPerm extractEntry app/templates/gitattributes
+51 silly gunzTarPerm extractEntry app/templates/gitignore
+52 silly gunzTarPerm extractEntry app/templates/index.html
+53 silly gunzTarPerm extractEntry app/templates/config.rb
+54 silly gunzTarPerm extractEntry .jshintrc
+55 silly gunzTarPerm extractEntry test/test-creation.js
+56 silly gunzTarPerm extractEntry test/test-load.js
+57 silly gunzTarPerm extractEntry test/temp/package.json
+58 silly gunzTarPerm extractEntry test/temp/.npmignore
+59 silly gunzTarPerm extractEntry test/temp/Gruntfile.js
+60 silly gunzTarPerm extractEntry test/temp/.bowerrc
+61 silly gunzTarPerm extractEntry test/temp/.editorconfig
+62 silly gunzTarPerm extractEntry test/temp/.gitattributes
+63 silly gunzTarPerm extractEntry test/temp/.jshintrc
+64 silly gunzTarPerm extractEntry test/temp/app/.htaccess
+65 silly gunzTarPerm extractEntry test/temp/app/404.html
+66 silly gunzTarPerm extractEntry test/temp/app/assets/js/main.js
+67 silly gunzTarPerm extractEntry test/temp/app/assets/scss/.scss-lint.yml
+68 silly gunzTarPerm extractEntry test/temp/app/assets/scss/main.scss
+69 silly gunzTarPerm extractEntry test/temp/app/favicon.ico
+70 silly gunzTarPerm extractEntry test/temp/app/index.html
+71 silly gunzTarPerm extractEntry test/temp/app/robots.txt
+72 silly gunzTarPerm extractEntry test/temp/bower.json
+73 silly lockFile d6240753-827003-0-263239910826087-package tar:///var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/package
+74 silly lockFile d6240753-827003-0-263239910826087-package tar:///var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/package
+75 silly lockFile 5a4a4e1e-827003-0-263239910826087-tmp-tgz tar:///var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/tmp.tgz
+76 silly lockFile 5a4a4e1e-827003-0-263239910826087-tmp-tgz tar:///var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/tmp.tgz
+77 verbose tar pack [ '/Users/soenke/.npm/generator-wunder/0.0.0/package.tgz',
+77 verbose tar pack   '/var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/package' ]
+78 verbose tarball /Users/soenke/.npm/generator-wunder/0.0.0/package.tgz
+79 verbose folder /var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/package
+80 silly lockFile d6240753-827003-0-263239910826087-package tar:///var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/package
+81 verbose lock tar:///var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/package /Users/soenke/.npm/d6240753-827003-0-263239910826087-package.lock
+82 silly lockFile 7961a2ec-nerator-wunder-0-0-0-package-tgz tar:///Users/soenke/.npm/generator-wunder/0.0.0/package.tgz
+83 verbose lock tar:///Users/soenke/.npm/generator-wunder/0.0.0/package.tgz /Users/soenke/.npm/7961a2ec-nerator-wunder-0-0-0-package-tgz.lock
+84 silly lockFile d6240753-827003-0-263239910826087-package tar:///var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/package
+85 silly lockFile d6240753-827003-0-263239910826087-package tar:///var/folders/rt/s1f28q4s7cv4w012jgqxgnb80000gn/T/npm-14770-go5gLsK9/1390154827003-0.263239910826087/package
+86 silly lockFile 7961a2ec-nerator-wunder-0-0-0-package-tgz tar:///Users/soenke/.npm/generator-wunder/0.0.0/package.tgz
+87 silly lockFile 7961a2ec-nerator-wunder-0-0-0-package-tgz tar:///Users/soenke/.npm/generator-wunder/0.0.0/package.tgz
+88 silly lockFile f2c408a6-m-generator-wunder-0-0-0-package /Users/soenke/.npm/generator-wunder/0.0.0/package
+89 verbose lock /Users/soenke/.npm/generator-wunder/0.0.0/package /Users/soenke/.npm/f2c408a6-m-generator-wunder-0-0-0-package.lock
+90 silly lockFile f2c408a6-m-generator-wunder-0-0-0-package /Users/soenke/.npm/generator-wunder/0.0.0/package
+91 silly lockFile f2c408a6-m-generator-wunder-0-0-0-package /Users/soenke/.npm/generator-wunder/0.0.0/package
+92 verbose tar unpack /Users/soenke/.npm/generator-wunder/0.0.0/package.tgz
+93 silly lockFile c16b0311-m-generator-wunder-0-0-0-package tar:///Users/soenke/.npm/generator-wunder/0.0.0/package
+94 verbose lock tar:///Users/soenke/.npm/generator-wunder/0.0.0/package /Users/soenke/.npm/c16b0311-m-generator-wunder-0-0-0-package.lock
+95 silly lockFile 7961a2ec-nerator-wunder-0-0-0-package-tgz tar:///Users/soenke/.npm/generator-wunder/0.0.0/package.tgz
+96 verbose lock tar:///Users/soenke/.npm/generator-wunder/0.0.0/package.tgz /Users/soenke/.npm/7961a2ec-nerator-wunder-0-0-0-package-tgz.lock
+97 silly gunzTarPerm modes [ '755', '644' ]
+98 silly gunzTarPerm extractEntry package.json
+99 silly gunzTarPerm extractEntry .npmignore
+100 silly gunzTarPerm extractEntry README.md
+101 silly gunzTarPerm extractEntry LICENSE
+102 silly gunzTarPerm extractEntry .editorconfig
+103 silly gunzTarPerm extractEntry .gitattributes
+104 silly gunzTarPerm extractEntry .jshintrc
+105 silly gunzTarPerm extractEntry .travis.yml
+106 silly gunzTarPerm extractEntry app/index.js
+107 silly gunzTarPerm extractEntry app/templates/README.md
+108 silly gunzTarPerm extractEntry app/templates/Gruntfile.js
+109 silly gunzTarPerm extractEntry app/templates/_bower.json
+110 silly gunzTarPerm extractEntry app/templates/_package.json
+111 silly gunzTarPerm extractEntry app/templates/app/.htaccess
+112 silly gunzTarPerm extractEntry app/templates/app/404.html
+113 silly gunzTarPerm extractEntry app/templates/app/assets/js/main.js
+114 silly gunzTarPerm extractEntry app/templates/app/assets/scss/.scss-lint.yml
+115 silly gunzTarPerm extractEntry app/templates/app/assets/scss/main.scss
+116 silly gunzTarPerm extractEntry app/templates/app/favicon.ico
+117 silly gunzTarPerm extractEntry app/templates/app/robots.txt
+118 silly gunzTarPerm extractEntry app/templates/bowerrc
+119 silly gunzTarPerm extractEntry app/templates/jshintrc
+120 silly gunzTarPerm extractEntry app/templates/editorconfig
+121 silly gunzTarPerm extractEntry app/templates/gitattributes
+122 silly gunzTarPerm extractEntry app/templates/gitignore
+123 silly gunzTarPerm extractEntry app/templates/index.html
+124 silly gunzTarPerm extractEntry app/templates/config.rb
+125 silly gunzTarPerm extractEntry test/test-creation.js
+126 silly gunzTarPerm extractEntry test/test-load.js
+127 silly gunzTarPerm extractEntry test/temp/package.json
+128 silly gunzTarPerm extractEntry test/temp/.npmignore
+129 silly gunzTarPerm extractEntry test/temp/Gruntfile.js
+130 silly gunzTarPerm extractEntry test/temp/.bowerrc
+131 silly gunzTarPerm extractEntry test/temp/.editorconfig
+132 silly gunzTarPerm extractEntry test/temp/.gitattributes
+133 silly gunzTarPerm extractEntry test/temp/.jshintrc
+134 silly gunzTarPerm extractEntry test/temp/app/.htaccess
+135 silly gunzTarPerm extractEntry test/temp/app/404.html
+136 silly gunzTarPerm extractEntry test/temp/app/assets/js/main.js
+137 silly gunzTarPerm extractEntry test/temp/app/assets/scss/.scss-lint.yml
+138 silly gunzTarPerm extractEntry test/temp/app/assets/scss/main.scss
+139 silly gunzTarPerm extractEntry test/temp/app/favicon.ico
+140 silly gunzTarPerm extractEntry test/temp/app/index.html
+141 silly gunzTarPerm extractEntry test/temp/app/robots.txt
+142 silly gunzTarPerm extractEntry test/temp/bower.json
+143 silly lockFile c16b0311-m-generator-wunder-0-0-0-package tar:///Users/soenke/.npm/generator-wunder/0.0.0/package
+144 silly lockFile c16b0311-m-generator-wunder-0-0-0-package tar:///Users/soenke/.npm/generator-wunder/0.0.0/package
+145 silly lockFile 7961a2ec-nerator-wunder-0-0-0-package-tgz tar:///Users/soenke/.npm/generator-wunder/0.0.0/package.tgz
+146 silly lockFile 7961a2ec-nerator-wunder-0-0-0-package-tgz tar:///Users/soenke/.npm/generator-wunder/0.0.0/package.tgz
+147 verbose chmod /Users/soenke/.npm/generator-wunder/0.0.0/package.tgz 644
+148 verbose chown /Users/soenke/.npm/generator-wunder/0.0.0/package.tgz [ 501, 20 ]
+149 silly lockFile 3a52ce78- .
+150 silly lockFile 3a52ce78- .
+151 silly publish { name: 'generator-wunder',
+151 silly publish   version: '0.0.0',
+151 silly publish   description: 'A generator for Yeoman',
+151 silly publish   keywords: [ 'yeoman-generator' ],
+151 silly publish   homepage: 'https://github.com/soenkekluth/generator-wunder',
+151 silly publish   bugs: { url: 'https://github.com/soenkekluth/generator-wunder/issues' },
+151 silly publish   author:
+151 silly publish    { name: 'Sönke Kluth',
+151 silly publish      email: 'soenke.kluth@gmail.com',
+151 silly publish      url: 'https://github.com/soenkekluth' },
+151 silly publish   main: 'app/index.js',
+151 silly publish   repository:
+151 silly publish    { type: 'git',
+151 silly publish      url: 'git://github.com/soenkekluth/generator-wunder.git' },
+151 silly publish   scripts: { test: 'mocha' },
+151 silly publish   dependencies:
+151 silly publish    { 'yeoman-generator': '~0.14.0',
+151 silly publish      cheerio: '~0.13.0',
+151 silly publish      chalk: '~0.4.0' },
+151 silly publish   devDependencies: { mocha: '~1.14.0' },
+151 silly publish   peerDependencies: { yo: '>=1.0.0' },
+151 silly publish   engines: { node: '>=0.8.0', npm: '>=1.2.10' },
+151 silly publish   licenses: [ { type: 'MIT' } ],
+151 silly publish   readme: 'ERROR: No README data found!',
+151 silly publish   readmeFilename: 'README.md',
+151 silly publish   _id: 'generator-wunder@0.0.0',
+151 silly publish   dist: { shasum: 'bc5d363bec36551b58d4608aeefc3b15ba7f5b3d' },
+151 silly publish   _from: '.' }
+152 verbose url raw generator-wunder
+153 verbose url resolving [ 'https://registry.npmjs.org/', './generator-wunder' ]
+154 verbose url resolved https://registry.npmjs.org/generator-wunder
+155 info trying registry request attempt 1 at 19:07:07
+156 http PUT https://registry.npmjs.org/generator-wunder
+157 http 500 https://registry.npmjs.org/generator-wunder
+158 info retry will retry, error on last attempt: Error: TypeError {[{<<"stack">>,
+158 info retry    <<"([object Object],null,[object Object],[object Object])@validate_doc_update:316\n(function (doc, oldDoc, user, dbCtx) {\nfunction assert(ok, message) {if (!ok) {throw {forbidden: message};}}\n\nif (!user || !user.name) {throw {unauthorized: \"Please log in before writing to the db\"};}try {require(\"monkeypatch\").patch(Object, Date, Array, String);} catch (er) {assert(false, \"failed monkeypatching\");}try {var semver = require(\"semver\");var valid = require(\"valid\");var deep = require(\"deep\");var deepEquals = deep.deepEquals;} catch (er) {assert(false, \"failed loading modules\");}try {if (oldDoc) {oldDoc.users = oldDoc.users || {};}doc.users = doc.users || {};} catch (er) {assert(false, \"failed checking users\");}try {if (isAdmin()) {return;}} catch (er) {assert(false, \"failed checking admin-ness\");}\nfunction diffObj(o, n, p) {p = p || \"\";var d = [];var seenKeys = [];for (var i in o) {seenKeys.push(i);if (n[i] === undefined) {d.push(\"Deleted: \" + p + i);} else if (typeof o[i] !== typeof n[i]) {d.push(\"Changed Type: \" + p + i);} else if (typeof o[i] === \"object\") {if (o[i]) {if (n[i]) {d = d.concat(diffObj(o[i], n[i], p + i + \".\"));} else {d.push(\"Nulled: \" + p + i);}} else {if (n[i]) {d.push(\"Un-nulled: \" + p + i);} else {}}} else if (o[i] !== n[i]) {d.push(\"Changed: \" + p + i + \" \" + JSON.stringify(o[i]) + \" -> \" + JSON.stringify(n[i]));}}for (var i in n) {if (-1 === seenKeys.indexOf(i)) {d.push(\"Added: \" + p + i);}}return d;}\n\ntry {assert(!doc.forbidden || doc._deleted, doc.forbidden);} catch (er) {assert(false, \"failed checking doc.forbidden or doc._deleted\");}try {if (oldDoc && !doc._deleted && deepEquals(doc, oldDoc, [[\"users\", user.name], [\"time\", \"modified\"]])) {return;}} catch (er) {assert(false, \"failed checking starred stuff\");}\nfunction validUser() {if (!oldDoc || !oldDoc.maintainers) {return true;}if (isAdmin()) {return true;}if (typeof oldDoc.maintainers !== \"object\") {return true;}for (var i = 0, l = oldDoc.maintainers.length; i < l; i++) {if (oldDoc.maintainers[i].name === user.name) {return true;}}return false;}\n\n\nfunction isAdmin() {if (dbCtx && dbCtx.admins) {if (dbCtx.admins.names && dbCtx.admins.roles && dbCtx.admins.names.indexOf(user.name) !== -1) {return true;}for (var i = 0; i < user.roles.length; i++) {if (dbCtx.admins.roles.indexOf(user.roles[i]) !== -1) {return true;}}}return user && user.roles.indexOf(\"_admin\") >= 0;}\n\ntry {var vu = validUser();} catch (er) {assert(false, \"problem checking user validity\");}if (!vu) {assert(vu, \"user: \" + user.name + \" not authorized to modify \" + oldDoc.name + \"\\n\" + diffObj(oldDoc, doc).join(\"\\n\"));}if (doc._deleted && doc.name === \"npm\") {throw {forbidden: \"you may not delete npm!\"};}if (doc._deleted) {return;}assert(valid.name(doc.name), \"name invalid: \" + doc.name);if (!oldDoc && doc.name !== doc.name.toLowerCase()) {assert(false, \"New packages must have all-lowercase names\");}assert(doc.name === doc._id, \"name must match _id\");assert(doc.name.length < 512, \"name is too long\");assert(!doc.mtime, \"doc.mtime is deprecated\");assert(!doc.ctime, \"doc.ctime is deprecated\");assert(typeof doc.time === \"object\", \"time must be object\");assert(typeof doc['dist-tags'] === \"object\", \"dist-tags must be object\");var versions = doc.versions;assert(typeof versions === \"object\", \"versions must be object\");var latest = doc['dist-tags'].latest;if (latest) {assert(versions[latest], \"dist-tags.latest must be valid version\");}var version = versions[latest];if (version) {if (!version.dist) {assert(false, \"no dist object in \" + latest + \" version\");}if (!version.dist.tarball) {assert(false, \"no tarball in \" + latest + \" version\");}if (!version.dist.shasum) {assert(false, \"no shasum in \" + latest + \" version\");}}for (var v in doc['dist-tags']) {var ver = doc['dist-tags'][v];assert(semver.valid(ver, true), v + \" version invalid version: \" + ver);assert(versions[ver], v + \" version missing: \" + ver);}var depCount = 0;var maxDeps = 1000;\nfunction ridiculousDeps() {if (++depCount > maxDeps) {assert(false, \"too many deps.  please be less ridiculous.\");}}\n\nfor (var ver in versions) {var version = versions[ver];assert(semver.valid(ver, true), \"invalid version: \" + ver);assert(typeof version === \"object\", \"version entries must be objects\");assert(version.version === ver, \"version must match: \" + ver);assert(version.name === doc._id, \"version \" + ver + \" has incorrect name: \" + version.name);depCount = 0;for (var dep in version.dependencies || {}) {ridiculousDeps();}for (var dep in version.devDependencies || {}) {ridiculousDeps();}for (var dep in version.optionalDependencies || {}) {ridiculousDeps();}if (oldDoc && oldDoc.versions && !oldDoc.versions[ver]) {assert(semver.valid(ver), \"Invalid SemVer 2.0 version: \" + ver);if (version.hasOwnProperty(\"scripts\")) {assert(version.scripts && typeof version.scripts === \"object\", \"'scripts' field must be an object\");for (var s in version.scripts) {assert(typeof version.scripts[s] === \"string\", \"Non-string script field: \" + s);}}}}assert(Array.isArray(doc.maintainers), \"maintainers should be a list of owners\");doc.maintainers.forEach(function (m) {assert(m.name && m.email, \"Maintainer should have name and email: \" + JSON.stringify(m));});var time = doc.time;var c = new Date(Date.parse(time.created)), m = new Date(Date.parse(time.modified));assert(c.toString() !== \"Invalid Date\", \"invalid created time: \" + JSON.stringify(time.created));assert(m.toString() !== \"Invalid Date\", \"invalid modified time: \" + JSON.stringify(time.modified));if (oldDoc && oldDoc.time && oldDoc.time.created && Date.parse(oldDoc.time.created)) {assert(Date.parse(oldDoc.time.created) === Date.parse(time.created), \"created time cannot be changed\");}if (oldDoc && oldDoc.users) {assert(deepEquals(doc.users, oldDoc.users, [[user.name]]), \"you may only alter your own 'star' setting\");}if (doc.url) {assert(false, \"Package redirection has been removed. Please update your publish scripts.\");}if (doc.description) {assert(typeof doc.description === \"string\", \"\\\"description\\\" field must be a string\");}var oldVersions = oldDoc ? oldDoc.versions || {} : {};var oldTime = oldDoc ? oldDoc.time || {} : {};var versions = Object.keys(doc.versions), modified = null, allowedChange = [[\"directories\"], [\"deprecated\"]];for (var i = 0, l = versions.length; i < l; i++) {var v = versions[i];if (!v) {continue;}assert(doc.time[v], \"must have time entry for \" + v);if (doc.versions[v] && oldDoc.versions[v]) {doc.versions[v].version = oldDoc.versions[v].version;}if (doc.versions[v] && oldDoc.versions[v] && !deepEquals(doc.versions[v], oldVersions[v], allowedChange)) {var t = Date.parse(doc.time[v]), n = Date.now();if (typeof doc.versions[v]._npmUser !== \"object\") {continue;}assert(typeof doc.versions[v]._npmUser === \"object\", \"_npmUser field must be object\\n(You probably need to upgrade your npm version)\");var _npmUser = doc.versions[v]._npmUser;assert(_npmUser.name === user.name, \"version=\" + v + \"\\n\" + \"user.name=\" + user.name + \"\\n\" + \"_npmUser.name=\" + _npmUser.name + \"\\n\" + \"_npmUser.name must === user.name\");var found = false;for (var j = 0, lm = doc.maintainers.length; j < lm; j++) {var m = doc.maintainers[j];if (m.name === doc.versions[v]._npmUser.name) {found = true;break;}}assert(found, \"_npmUser must be a current maintainer.\\n\" + \"maintainers=\" + JSON.stringify(doc.maintainers) + \"\\n\" + \"current user=\" + JSON.stringify(doc.versions[v]._npmUser));} else if (oldTime[v]) {assert(oldTime[v] === doc.time[v], v + \" time should not be modified 1\");}}for (var v in oldTime) {if (doc.versions[v] || !oldVersions[v]) {continue;}assert(doc.time[v] === oldTime[v], v + \" time should not be modified 2\");}},[object Object],[object Array])@/home/ubuntu/hosting/installs/hosting_v1.5.0r2/share/couchdb/server/main.js:1270\n(\"_design/scratch\",[object Array],[object Array])@/home/ubuntu/hosting/installs/hosting_v1.5.0r2/share/couchdb/server/main.js:1517\n()@/home/ubuntu/hosting/installs/hosting_v1.5.0r2/share/couchdb/server/main.js:1562\n@/home/ubuntu/hosting/installs/hosting_v1.5.0r2/share/couchdb/server/main.js:1573\n@:0\n">>}]}: generator-wunder
+159 info trying registry request attempt 2 at 19:07:18
+160 http PUT https://registry.npmjs.org/generator-wunder
+161 http 500 https://registry.npmjs.org/generator-wunder
+162 info retry will retry, error on last attempt: Error: TypeError {[{<<"stack">>,
+162 info retry    <<"([object Object],null,[object Object],[object Object])@validate_doc_update:316\n(function (doc, oldDoc, user, dbCtx) {\nfunction assert(ok, message) {if (!ok) {throw {forbidden: message};}}\n\nif (!user || !user.name) {throw {unauthorized: \"Please log in before writing to the db\"};}try {require(\"monkeypatch\").patch(Object, Date, Array, String);} catch (er) {assert(false, \"failed monkeypatching\");}try {var semver = require(\"semver\");var valid = require(\"valid\");var deep = require(\"deep\");var deepEquals = deep.deepEquals;} catch (er) {assert(false, \"failed loading modules\");}try {if (oldDoc) {oldDoc.users = oldDoc.users || {};}doc.users = doc.users || {};} catch (er) {assert(false, \"failed checking users\");}try {if (isAdmin()) {return;}} catch (er) {assert(false, \"failed checking admin-ness\");}\nfunction diffObj(o, n, p) {p = p || \"\";var d = [];var seenKeys = [];for (var i in o) {seenKeys.push(i);if (n[i] === undefined) {d.push(\"Deleted: \" + p + i);} else if (typeof o[i] !== typeof n[i]) {d.push(\"Changed Type: \" + p + i);} else if (typeof o[i] === \"object\") {if (o[i]) {if (n[i]) {d = d.concat(diffObj(o[i], n[i], p + i + \".\"));} else {d.push(\"Nulled: \" + p + i);}} else {if (n[i]) {d.push(\"Un-nulled: \" + p + i);} else {}}} else if (o[i] !== n[i]) {d.push(\"Changed: \" + p + i + \" \" + JSON.stringify(o[i]) + \" -> \" + JSON.stringify(n[i]));}}for (var i in n) {if (-1 === seenKeys.indexOf(i)) {d.push(\"Added: \" + p + i);}}return d;}\n\ntry {assert(!doc.forbidden || doc._deleted, doc.forbidden);} catch (er) {assert(false, \"failed checking doc.forbidden or doc._deleted\");}try {if (oldDoc && !doc._deleted && deepEquals(doc, oldDoc, [[\"users\", user.name], [\"time\", \"modified\"]])) {return;}} catch (er) {assert(false, \"failed checking starred stuff\");}\nfunction validUser() {if (!oldDoc || !oldDoc.maintainers) {return true;}if (isAdmin()) {return true;}if (typeof oldDoc.maintainers !== \"object\") {return true;}for (var i = 0, l = oldDoc.maintainers.length; i < l; i++) {if (oldDoc.maintainers[i].name === user.name) {return true;}}return false;}\n\n\nfunction isAdmin() {if (dbCtx && dbCtx.admins) {if (dbCtx.admins.names && dbCtx.admins.roles && dbCtx.admins.names.indexOf(user.name) !== -1) {return true;}for (var i = 0; i < user.roles.length; i++) {if (dbCtx.admins.roles.indexOf(user.roles[i]) !== -1) {return true;}}}return user && user.roles.indexOf(\"_admin\") >= 0;}\n\ntry {var vu = validUser();} catch (er) {assert(false, \"problem checking user validity\");}if (!vu) {assert(vu, \"user: \" + user.name + \" not authorized to modify \" + oldDoc.name + \"\\n\" + diffObj(oldDoc, doc).join(\"\\n\"));}if (doc._deleted && doc.name === \"npm\") {throw {forbidden: \"you may not delete npm!\"};}if (doc._deleted) {return;}assert(valid.name(doc.name), \"name invalid: \" + doc.name);if (!oldDoc && doc.name !== doc.name.toLowerCase()) {assert(false, \"New packages must have all-lowercase names\");}assert(doc.name === doc._id, \"name must match _id\");assert(doc.name.length < 512, \"name is too long\");assert(!doc.mtime, \"doc.mtime is deprecated\");assert(!doc.ctime, \"doc.ctime is deprecated\");assert(typeof doc.time === \"object\", \"time must be object\");assert(typeof doc['dist-tags'] === \"object\", \"dist-tags must be object\");var versions = doc.versions;assert(typeof versions === \"object\", \"versions must be object\");var latest = doc['dist-tags'].latest;if (latest) {assert(versions[latest], \"dist-tags.latest must be valid version\");}var version = versions[latest];if (version) {if (!version.dist) {assert(false, \"no dist object in \" + latest + \" version\");}if (!version.dist.tarball) {assert(false, \"no tarball in \" + latest + \" version\");}if (!version.dist.shasum) {assert(false, \"no shasum in \" + latest + \" version\");}}for (var v in doc['dist-tags']) {var ver = doc['dist-tags'][v];assert(semver.valid(ver, true), v + \" version invalid version: \" + ver);assert(versions[ver], v + \" version missing: \" + ver);}var depCount = 0;var maxDeps = 1000;\nfunction ridiculousDeps() {if (++depCount > maxDeps) {assert(false, \"too many deps.  please be less ridiculous.\");}}\n\nfor (var ver in versions) {var version = versions[ver];assert(semver.valid(ver, true), \"invalid version: \" + ver);assert(typeof version === \"object\", \"version entries must be objects\");assert(version.version === ver, \"version must match: \" + ver);assert(version.name === doc._id, \"version \" + ver + \" has incorrect name: \" + version.name);depCount = 0;for (var dep in version.dependencies || {}) {ridiculousDeps();}for (var dep in version.devDependencies || {}) {ridiculousDeps();}for (var dep in version.optionalDependencies || {}) {ridiculousDeps();}if (oldDoc && oldDoc.versions && !oldDoc.versions[ver]) {assert(semver.valid(ver), \"Invalid SemVer 2.0 version: \" + ver);if (version.hasOwnProperty(\"scripts\")) {assert(version.scripts && typeof version.scripts === \"object\", \"'scripts' field must be an object\");for (var s in version.scripts) {assert(typeof version.scripts[s] === \"string\", \"Non-string script field: \" + s);}}}}assert(Array.isArray(doc.maintainers), \"maintainers should be a list of owners\");doc.maintainers.forEach(function (m) {assert(m.name && m.email, \"Maintainer should have name and email: \" + JSON.stringify(m));});var time = doc.time;var c = new Date(Date.parse(time.created)), m = new Date(Date.parse(time.modified));assert(c.toString() !== \"Invalid Date\", \"invalid created time: \" + JSON.stringify(time.created));assert(m.toString() !== \"Invalid Date\", \"invalid modified time: \" + JSON.stringify(time.modified));if (oldDoc && oldDoc.time && oldDoc.time.created && Date.parse(oldDoc.time.created)) {assert(Date.parse(oldDoc.time.created) === Date.parse(time.created), \"created time cannot be changed\");}if (oldDoc && oldDoc.users) {assert(deepEquals(doc.users, oldDoc.users, [[user.name]]), \"you may only alter your own 'star' setting\");}if (doc.url) {assert(false, \"Package redirection has been removed. Please update your publish scripts.\");}if (doc.description) {assert(typeof doc.description === \"string\", \"\\\"description\\\" field must be a string\");}var oldVersions = oldDoc ? oldDoc.versions || {} : {};var oldTime = oldDoc ? oldDoc.time || {} : {};var versions = Object.keys(doc.versions), modified = null, allowedChange = [[\"directories\"], [\"deprecated\"]];for (var i = 0, l = versions.length; i < l; i++) {var v = versions[i];if (!v) {continue;}assert(doc.time[v], \"must have time entry for \" + v);if (doc.versions[v] && oldDoc.versions[v]) {doc.versions[v].version = oldDoc.versions[v].version;}if (doc.versions[v] && oldDoc.versions[v] && !deepEquals(doc.versions[v], oldVersions[v], allowedChange)) {var t = Date.parse(doc.time[v]), n = Date.now();if (typeof doc.versions[v]._npmUser !== \"object\") {continue;}assert(typeof doc.versions[v]._npmUser === \"object\", \"_npmUser field must be object\\n(You probably need to upgrade your npm version)\");var _npmUser = doc.versions[v]._npmUser;assert(_npmUser.name === user.name, \"version=\" + v + \"\\n\" + \"user.name=\" + user.name + \"\\n\" + \"_npmUser.name=\" + _npmUser.name + \"\\n\" + \"_npmUser.name must === user.name\");var found = false;for (var j = 0, lm = doc.maintainers.length; j < lm; j++) {var m = doc.maintainers[j];if (m.name === doc.versions[v]._npmUser.name) {found = true;break;}}assert(found, \"_npmUser must be a current maintainer.\\n\" + \"maintainers=\" + JSON.stringify(doc.maintainers) + \"\\n\" + \"current user=\" + JSON.stringify(doc.versions[v]._npmUser));} else if (oldTime[v]) {assert(oldTime[v] === doc.time[v], v + \" time should not be modified 1\");}}for (var v in oldTime) {if (doc.versions[v] || !oldVersions[v]) {continue;}assert(doc.time[v] === oldTime[v], v + \" time should not be modified 2\");}},[object Object],[object Array])@/home/ubuntu/hosting/installs/hosting_v1.5.0r2/share/couchdb/server/main.js:1270\n(\"_design/scratch\",[object Array],[object Array])@/home/ubuntu/hosting/installs/hosting_v1.5.0r2/share/couchdb/server/main.js:1517\n()@/home/ubuntu/hosting/installs/hosting_v1.5.0r2/share/couchdb/server/main.js:1562\n@/home/ubuntu/hosting/installs/hosting_v1.5.0r2/share/couchdb/server/main.js:1573\n@:0\n">>}]}: generator-wunder
+163 info trying registry request attempt 3 at 19:08:19
+164 http PUT https://registry.npmjs.org/generator-wunder
+165 http 500 https://registry.npmjs.org/generator-wunder
+166 error publish Failed PUT 500
+167 error Error: TypeError {[{<<"stack">>,
+167 error    <<"([object Object],null,[object Object],[object Object])@validate_doc_update:316\n(function (doc, oldDoc, user, dbCtx) {\nfunction assert(ok, message) {if (!ok) {throw {forbidden: message};}}\n\nif (!user || !user.name) {throw {unauthorized: \"Please log in before writing to the db\"};}try {require(\"monkeypatch\").patch(Object, Date, Array, String);} catch (er) {assert(false, \"failed monkeypatching\");}try {var semver = require(\"semver\");var valid = require(\"valid\");var deep = require(\"deep\");var deepEquals = deep.deepEquals;} catch (er) {assert(false, \"failed loading modules\");}try {if (oldDoc) {oldDoc.users = oldDoc.users || {};}doc.users = doc.users || {};} catch (er) {assert(false, \"failed checking users\");}try {if (isAdmin()) {return;}} catch (er) {assert(false, \"failed checking admin-ness\");}\nfunction diffObj(o, n, p) {p = p || \"\";var d = [];var seenKeys = [];for (var i in o) {seenKeys.push(i);if (n[i] === undefined) {d.push(\"Deleted: \" + p + i);} else if (typeof o[i] !== typeof n[i]) {d.push(\"Changed Type: \" + p + i);} else if (typeof o[i] === \"object\") {if (o[i]) {if (n[i]) {d = d.concat(diffObj(o[i], n[i], p + i + \".\"));} else {d.push(\"Nulled: \" + p + i);}} else {if (n[i]) {d.push(\"Un-nulled: \" + p + i);} else {}}} else if (o[i] !== n[i]) {d.push(\"Changed: \" + p + i + \" \" + JSON.stringify(o[i]) + \" -> \" + JSON.stringify(n[i]));}}for (var i in n) {if (-1 === seenKeys.indexOf(i)) {d.push(\"Added: \" + p + i);}}return d;}\n\ntry {assert(!doc.forbidden || doc._deleted, doc.forbidden);} catch (er) {assert(false, \"failed checking doc.forbidden or doc._deleted\");}try {if (oldDoc && !doc._deleted && deepEquals(doc, oldDoc, [[\"users\", user.name], [\"time\", \"modified\"]])) {return;}} catch (er) {assert(false, \"failed checking starred stuff\");}\nfunction validUser() {if (!oldDoc || !oldDoc.maintainers) {return true;}if (isAdmin()) {return true;}if (typeof oldDoc.maintainers !== \"object\") {return true;}for (var i = 0, l = oldDoc.maintainers.length; i < l; i++) {if (oldDoc.maintainers[i].name === user.name) {return true;}}return false;}\n\n\nfunction isAdmin() {if (dbCtx && dbCtx.admins) {if (dbCtx.admins.names && dbCtx.admins.roles && dbCtx.admins.names.indexOf(user.name) !== -1) {return true;}for (var i = 0; i < user.roles.length; i++) {if (dbCtx.admins.roles.indexOf(user.roles[i]) !== -1) {return true;}}}return user && user.roles.indexOf(\"_admin\") >= 0;}\n\ntry {var vu = validUser();} catch (er) {assert(false, \"problem checking user validity\");}if (!vu) {assert(vu, \"user: \" + user.name + \" not authorized to modify \" + oldDoc.name + \"\\n\" + diffObj(oldDoc, doc).join(\"\\n\"));}if (doc._deleted && doc.name === \"npm\") {throw {forbidden: \"you may not delete npm!\"};}if (doc._deleted) {return;}assert(valid.name(doc.name), \"name invalid: \" + doc.name);if (!oldDoc && doc.name !== doc.name.toLowerCase()) {assert(false, \"New packages must have all-lowercase names\");}assert(doc.name === doc._id, \"name must match _id\");assert(doc.name.length < 512, \"name is too long\");assert(!doc.mtime, \"doc.mtime is deprecated\");assert(!doc.ctime, \"doc.ctime is deprecated\");assert(typeof doc.time === \"object\", \"time must be object\");assert(typeof doc['dist-tags'] === \"object\", \"dist-tags must be object\");var versions = doc.versions;assert(typeof versions === \"object\", \"versions must be object\");var latest = doc['dist-tags'].latest;if (latest) {assert(versions[latest], \"dist-tags.latest must be valid version\");}var version = versions[latest];if (version) {if (!version.dist) {assert(false, \"no dist object in \" + latest + \" version\");}if (!version.dist.tarball) {assert(false, \"no tarball in \" + latest + \" version\");}if (!version.dist.shasum) {assert(false, \"no shasum in \" + latest + \" version\");}}for (var v in doc['dist-tags']) {var ver = doc['dist-tags'][v];assert(semver.valid(ver, true), v + \" version invalid version: \" + ver);assert(versions[ver], v + \" version missing: \" + ver);}var depCount = 0;var maxDeps = 1000;\nfunction ridiculousDeps() {if (++depCount > maxDeps) {assert(false, \"too many deps.  please be less ridiculous.\");}}\n\nfor (var ver in versions) {var version = versions[ver];assert(semver.valid(ver, true), \"invalid version: \" + ver);assert(typeof version === \"object\", \"version entries must be objects\");assert(version.version === ver, \"version must match: \" + ver);assert(version.name === doc._id, \"version \" + ver + \" has incorrect name: \" + version.name);depCount = 0;for (var dep in version.dependencies || {}) {ridiculousDeps();}for (var dep in version.devDependencies || {}) {ridiculousDeps();}for (var dep in version.optionalDependencies || {}) {ridiculousDeps();}if (oldDoc && oldDoc.versions && !oldDoc.versions[ver]) {assert(semver.valid(ver), \"Invalid SemVer 2.0 version: \" + ver);if (version.hasOwnProperty(\"scripts\")) {assert(version.scripts && typeof version.scripts === \"object\", \"'scripts' field must be an object\");for (var s in version.scripts) {assert(typeof version.scripts[s] === \"string\", \"Non-string script field: \" + s);}}}}assert(Array.isArray(doc.maintainers), \"maintainers should be a list of owners\");doc.maintainers.forEach(function (m) {assert(m.name && m.email, \"Maintainer should have name and email: \" + JSON.stringify(m));});var time = doc.time;var c = new Date(Date.parse(time.created)), m = new Date(Date.parse(time.modified));assert(c.toString() !== \"Invalid Date\", \"invalid created time: \" + JSON.stringify(time.created));assert(m.toString() !== \"Invalid Date\", \"invalid modified time: \" + JSON.stringify(time.modified));if (oldDoc && oldDoc.time && oldDoc.time.created && Date.parse(oldDoc.time.created)) {assert(Date.parse(oldDoc.time.created) === Date.parse(time.created), \"created time cannot be changed\");}if (oldDoc && oldDoc.users) {assert(deepEquals(doc.users, oldDoc.users, [[user.name]]), \"you may only alter your own 'star' setting\");}if (doc.url) {assert(false, \"Package redirection has been removed. Please update your publish scripts.\");}if (doc.description) {assert(typeof doc.description === \"string\", \"\\\"description\\\" field must be a string\");}var oldVersions = oldDoc ? oldDoc.versions || {} : {};var oldTime = oldDoc ? oldDoc.time || {} : {};var versions = Object.keys(doc.versions), modified = null, allowedChange = [[\"directories\"], [\"deprecated\"]];for (var i = 0, l = versions.length; i < l; i++) {var v = versions[i];if (!v) {continue;}assert(doc.time[v], \"must have time entry for \" + v);if (doc.versions[v] && oldDoc.versions[v]) {doc.versions[v].version = oldDoc.versions[v].version;}if (doc.versions[v] && oldDoc.versions[v] && !deepEquals(doc.versions[v], oldVersions[v], allowedChange)) {var t = Date.parse(doc.time[v]), n = Date.now();if (typeof doc.versions[v]._npmUser !== \"object\") {continue;}assert(typeof doc.versions[v]._npmUser === \"object\", \"_npmUser field must be object\\n(You probably need to upgrade your npm version)\");var _npmUser = doc.versions[v]._npmUser;assert(_npmUser.name === user.name, \"version=\" + v + \"\\n\" + \"user.name=\" + user.name + \"\\n\" + \"_npmUser.name=\" + _npmUser.name + \"\\n\" + \"_npmUser.name must === user.name\");var found = false;for (var j = 0, lm = doc.maintainers.length; j < lm; j++) {var m = doc.maintainers[j];if (m.name === doc.versions[v]._npmUser.name) {found = true;break;}}assert(found, \"_npmUser must be a current maintainer.\\n\" + \"maintainers=\" + JSON.stringify(doc.maintainers) + \"\\n\" + \"current user=\" + JSON.stringify(doc.versions[v]._npmUser));} else if (oldTime[v]) {assert(oldTime[v] === doc.time[v], v + \" time should not be modified 1\");}}for (var v in oldTime) {if (doc.versions[v] || !oldVersions[v]) {continue;}assert(doc.time[v] === oldTime[v], v + \" time should not be modified 2\");}},[object Object],[object Array])@/home/ubuntu/hosting/installs/hosting_v1.5.0r2/share/couchdb/server/main.js:1270\n(\"_design/scratch\",[object Array],[object Array])@/home/ubuntu/hosting/installs/hosting_v1.5.0r2/share/couchdb/server/main.js:1517\n()@/home/ubuntu/hosting/installs/hosting_v1.5.0r2/share/couchdb/server/main.js:1562\n@/home/ubuntu/hosting/installs/hosting_v1.5.0r2/share/couchdb/server/main.js:1573\n@:0\n">>}]}: generator-wunder
+167 error     at RegClient.<anonymous> (/usr/local/Cellar/node/0.10.24/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:275:14)
+167 error     at Request.self.callback (/usr/local/Cellar/node/0.10.24/lib/node_modules/npm/node_modules/request/request.js:123:22)
+167 error     at Request.EventEmitter.emit (events.js:98:17)
+167 error     at Request.<anonymous> (/usr/local/Cellar/node/0.10.24/lib/node_modules/npm/node_modules/request/request.js:893:14)
+167 error     at Request.EventEmitter.emit (events.js:117:20)
+167 error     at IncomingMessage.<anonymous> (/usr/local/Cellar/node/0.10.24/lib/node_modules/npm/node_modules/request/request.js:844:12)
+167 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+167 error     at _stream_readable.js:920:16
+167 error     at process._tickCallback (node.js:415:13)
+168 error If you need help, you may report this *entire* log,
+168 error including the npm and node versions, at:
+168 error     <http://github.com/isaacs/npm/issues>
+169 error System Darwin 13.0.0
+170 error command "/usr/local/Cellar/node/0.10.24/bin/node" "/usr/local/bin/npm" "publish"
+171 error cwd /Users/soenke/Developer/Workspaces/Web/yeoman/generators/generator-wunder
+172 error node -v v0.10.24
+173 error npm -v 1.3.21
+174 verbose exit [ 1, true ]
