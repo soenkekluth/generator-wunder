@@ -59,6 +59,10 @@ AppGenerator.prototype.askFor = function askFor() {
             name: 'Modernizr',
             value: 'includeModernizr',
             checked: true
+        }, {
+            name: 'Backbone',
+            value: 'includeBackbone',
+            checked: true
         }]
     }];
 
@@ -77,6 +81,7 @@ AppGenerator.prototype.askFor = function askFor() {
         this.includeCompass = hasFeature('includeCompass');
         this.includeBootstrap = hasFeature('includeBootstrap');
         this.includeModernizr = hasFeature('includeModernizr');
+        this.includeBackbone = hasFeature('includeBackbone');
 
         cb();
     }.bind(this));
@@ -122,54 +127,19 @@ AppGenerator.prototype.mainStylesheet = function mainStylesheet() {
 
 AppGenerator.prototype.writeIndex = function writeIndex() {
 
-    this.indexFile = this.readFileAsString(path.join(this.sourceRoot(), 'index.html'));
-    this.indexFile = this.engine(this.indexFile, this);
+    // this.indexFile = this.readFileAsString(path.join(this.sourceRoot(), 'index.html'));
+    // this.indexFile = this.engine(this.indexFile, this);
 
-    // wire Twitter Bootstrap plugins
-    /*if (this.includeBootstrap) {
-        var bs = 'assets/components/' + (this.includeCompass ? 'sass-' : '') + 'bootstrap/js/';
-        this.indexFile = this.appendScripts(this.indexFile, 'assets/js/plugins.js', [
-            bs + 'affix.js',
-            bs + 'alert.js',
-            bs + 'dropdown.js',
-            bs + 'tooltip.js',
-            bs + 'modal.js',
-            bs + 'transition.js',
-            bs + 'button.js',
-            bs + 'popover.js',
-            bs + 'carousel.js',
-            bs + 'scrollspy.js',
-            bs + 'collapse.js',
-            bs + 'tab.js'
-        ]);
-    }
+    // this.mainJSFile = this.readFileAsString(path.join(this.sourceRoot(), 'app/assets/js/main.js'));
+    // this.mainJSFile = this.engine(this.mainJSFile, this);
 
-    this.indexFile = this.appendFiles({
-        html: this.indexFile,
-        fileType: 'js',
-        optimizedPath: 'assets/js/main.js',
-        sourceFileList: ['assets/js/main.js'],
-        searchPath: '{app,.tmp}'
-    });*/
 };
 
 AppGenerator.prototype.app = function app() {
     this.mkdir('app');
     this.directory('app', 'app');
-    /*
-    this.mkdir('app/scripts');
-    this.mkdir('app/styles');
-    this.mkdir('app/images');*/
-    this.write('app/index.html', this.indexFile);
-
-    /*if (this.coffee) {
-        this.write(
-            'app/scripts/main.coffee',
-            'console.log "\'Allo from CoffeeScript!"'
-        );
-    } else {
-        this.write('app/scripts/main.js', 'console.log(\'\\\'Allo \\\'Allo!\');');
-    }*/
+    // this.write('app/index.html', this.indexFile);
+    // this.write('app/assets/js/main.js', this.mainJSFile);
 };
 
 AppGenerator.prototype.install = function() {

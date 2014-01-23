@@ -19,17 +19,36 @@ require.config({
         }
     },
     paths: {
-        domReady: '../components/requirejs-domready/domReady',
         jquery: '../components/jquery/jquery',
+        domReady: '../components/requirejs-domready/domReady'<% if (includeBackbone) { %>,
+        bootstrap: '../components/sass-bootstrap/dist/js/bootstrap',
         backbone: '../components/backbone/backbone',
-        underscore: '../components/lodash/dist/lodash.underscore',
-        bootstrap: '../components/sass-bootstrap/dist/js/bootstrap'
+        underscore: '../components/lodash/dist/lodash.underscore'
+        <% } %>
     }
 });
 
+<% if (includeBackbone) { %>
+
 require([
+    'app/core',
     'domReady',
     'backbone'
-], function(domReady, Backbone) {
-    console.log('Moin');
+], function(app, domReady, Backbone) {
+    domReady(function() {
+        console.log('Moin Moin and welcome to '+app.name+'');
+    });
 });
+
+<% } else { %>
+
+require([
+    'app/core',
+    'domReady'
+], function(app, domReady) {
+    domReady(function() {
+        console.log('Moin Moin and welcome to '+app.name+'');
+    });
+});
+
+<% } %>

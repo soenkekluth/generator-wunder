@@ -1,0 +1,86 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title><%= appname %></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="dns-prefetch" href="//google-analytics.com">
+        <link rel="dns-prefetch" href="//www.google-analytics.com">
+        <!-- <link rel="dns-prefetch" href="//fonts.googleapis.com"> -->
+        <!-- <link rel="prefetch" href="/about.html" /> -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <% if (includeModernizr) { %>
+        <script src="assets/components/modernizr/modernizr.js"></script>
+        <% } %>
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="page">
+
+            <div class="container">
+
+                <header class="header" role="banner">
+                    <div class="logo">
+                        <a href="/">
+                            <h1 class="text-muted">
+                                <%= appname %>
+                            </h1>
+                        </a>
+                    </div>
+                    <nav role="navigation">
+                        <ul class="nav nav-tabs">
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">News</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <main class="main" role="main">
+                    <div class="jumbotron text-center">
+                        <h1>Moin Moin</h1>
+                        <p>... and hello world</p>
+                        <p><a href="https://github.com/soenkekluth/generator-wunder" class="btn btn-primary btn-lg" role="button">Learn more</a>
+                        </p>
+                    </div>
+                </main>
+
+                <aside class="sidebar" role="complementary">
+
+                </aside>
+
+                <footer class="footer pull-right" role="contentinfo">
+                    <small class="text-muted">made with ♥ in Berlin</small>
+                </footer>
+
+            </div>
+
+        </div>
+
+        <script data-main="assets/js/main" src="assets/components/requirejs/require.js"></script>
+
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
