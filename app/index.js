@@ -39,8 +39,8 @@ AppGenerator.prototype.askFor = function askFor() {
 
     // welcome message
     if (!this.options['skip-welcome-message']) {
-        console.log(this.yeoman);
-        console.log(chalk.magenta('Out of the box I include HTML5 Boilerplate, jQuery, and a Gruntfile.js to build your app.'));
+        //console.log(this.yeoman);
+        console.log(chalk.magenta('Moin Moin'));
     }
 
     var prompts = [{
@@ -63,6 +63,10 @@ AppGenerator.prototype.askFor = function askFor() {
             name: 'Backbone',
             value: 'includeBackbone',
             checked: true
+        }, {
+            name: 'Dploy',
+            value: 'includeDploy',
+            checked: false
         }]
     }];
 
@@ -82,6 +86,7 @@ AppGenerator.prototype.askFor = function askFor() {
         this.includeBootstrap = hasFeature('includeBootstrap');
         this.includeModernizr = hasFeature('includeModernizr');
         this.includeBackbone = hasFeature('includeBackbone');
+        this.includeDploy = hasFeature('includeDploy');
 
         cb();
     }.bind(this));
