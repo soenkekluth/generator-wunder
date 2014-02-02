@@ -2,15 +2,16 @@
   "name": "<%= _.slugify(appname) %>",
   "private": true,
   "dependencies": {<% if (includeBootstrap) { if (includeCompass) { %>
-    "sass-bootstrap": "~3.0.0",<% } else { %>
-    "bootstrap": "~3.0.3",<% }} if (includeModernizr) { %>
-    "modernizr": "~2.6.2",<% } %>
+    "bootstrap-sass-official": "~3.1.0",<% } else { %>
+    "bootstrap": "~3.1.0",<% }} if (includeModernizr) { %>
+    "modernizr": "~2.7.1",<% } %><% if (includeBackbone) { %>
     "lodash": "~2.4.1",
-    "backbone": "~1.0.0",
-    "requirejs": "~2.1.5",
-    "requirejs-text": "~2.0.5",
-    "requirejs-domready": "~2.0.1",
-    "jquery": "~1.10.2",
+    "backbone": "~1.1.0",<% } %>
+    "requirejs": "~2.1.10",
+    "requirejs-text": "~2.0.10",
+    "requirejs-domready": "~2.0.1",<% if (jQuery1) { %>
+    "jquery": "~1.11.0",<% } else { %>
+    "jquery": "latest",<% } %>
     "almond": "~0.2.9"
   },
   "devDependencies": {}

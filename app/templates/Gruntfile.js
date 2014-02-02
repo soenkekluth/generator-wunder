@@ -21,7 +21,7 @@ module.exports = function (grunt) {
         yeoman: {
             // Configurable paths
             app: 'app',
-            dist: 'deploy'
+            dist: 'public'
         },
 
         // Watches files for changes and runs tasks based on the changed files
@@ -414,7 +414,7 @@ module.exports = function (grunt) {
                         '*.{ico,png,txt,html,php,shtml,htaccess,htpasswd}',
                         'images/{,*/}*.{png,webp,gif}',
                         'assets/fonts/{,*/}*.*'<% if (includeBootstrap) { %>,
-                        'assets/components/' + (this.includeCompass ? 'sass-' : '') + 'bootstrap/' + (this.includeCompass ? 'fonts/' : 'dist/fonts/') +'*.*'<% } %>
+                        'assets/components/bootstrap-sass-official/vendor/assets/fonts/*.*'<% } %>
                     ]
                 }]
             },
