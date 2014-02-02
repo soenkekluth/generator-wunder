@@ -1,6 +1,6 @@
 {
     "name": "generator-wunder",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A generator for Yeoman",
     "keywords": [
         "yeoman-generator"
@@ -17,7 +17,7 @@
         "test": "mocha"
     },
     "dependencies": {
-        "yeoman-generator": "~0.14.0",
+        "yeoman-generator": "~0.16.0",
         "cheerio": "~0.13.0",
         "chalk": "~0.4.0"
     },
