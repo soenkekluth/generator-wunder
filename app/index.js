@@ -48,6 +48,10 @@ AppGenerator.prototype.askFor = function askFor() {
         name: 'features',
         message: 'What more would you like?',
         choices: [{
+            name: 'jQuery with IE<=8 support',
+            value: 'jQuery1',
+            checked: true
+        }, {
             name: 'Sass with Compass',
             value: 'includeCompass',
             checked: true
@@ -82,6 +86,7 @@ AppGenerator.prototype.askFor = function askFor() {
 
         // manually deal with the response, get back and store the results.
         // we change a bit this way of doing to automatically do this in the self.prompt() method.
+        this.jQuery1 = hasFeature('jQuery1');
         this.includeCompass = hasFeature('includeCompass');
         this.includeBootstrap = hasFeature('includeBootstrap');
         this.includeModernizr = hasFeature('includeModernizr');
