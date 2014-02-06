@@ -341,9 +341,9 @@ module.exports = function (grunt) {
                 },
                 files: [{
                     expand: true,
-                    cwd: '<%%= yeoman.dist %>',
-                    src: '{,*/}*.html',
-                    dest: '<%%= yeoman.dist %>'
+                    cwd: '<%= yeoman.dist %>',
+                    src: '**/*.{html,php,shtml}',
+                    dest: '<%= yeoman.dist %>'
                 }]
             }
         },
@@ -391,9 +391,10 @@ module.exports = function (grunt) {
                 },
                 files: [{
                     expand: true,
-                    flatten: true,
-                    src: ['<%%= yeoman.app %>/*.{html,php,shtml}'],
-                    dest: '<%%= yeoman.dist %>/'
+                    flatten: false,
+                    cwd: '<%= yeoman.dist %>/',
+                    src: ['**/*.{html,php,shtml}'],
+                    dest: '<%= yeoman.dist %>/'
                 }]
             }
         },
@@ -412,7 +413,7 @@ module.exports = function (grunt) {
                     dest: '<%%= yeoman.dist %>',
                     src: [
                         '*.{ico,png,txt,html,php,shtml,htaccess,htpasswd}',
-                        'images/{,*/}*.{png,webp,gif}',
+                        'assets/images/{,*/}*.{png,webp,gif}',
                         'assets/fonts/{,*/}*.*'<% if (includeBootstrap) { %>,
                         'assets/components/bootstrap-sass-official/vendor/assets/fonts/*.*'<% } %>
                     ]
